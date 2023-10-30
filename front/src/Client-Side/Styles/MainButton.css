@@ -1,8 +1,10 @@
 .MainButton{
-width: 90px;
-height: 30px;   
-color: white;
-background-color: #C11708;
-border-radius: 10px;
-border: none;
-}
+
+    width: 90px;
+    height: 30px;   
+    color: white;
+    background-color: #C11708;
+    border-radius: 10px;
+    border: none;
+    }
+
