@@ -1,5 +1,5 @@
 import React from 'react'
-import ZALAME from '../Images/Zalame.jpg';
+import ZALAME from '../Assets/Zalame.jpg';
 import Button from './MainButton'
 import '../Styles/HomeHistory.css'
 export default function HomeHistory() {
