@@ -3,6 +3,7 @@
 // pages
 import Home from './Client-Side/Pages/Home'
 import Button from './Client-Side/Components/MainButton'
+import History from './Client-Side/Components/HomeHistory'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
 
       <Home/>
+      <History />
 
 
     </div>
