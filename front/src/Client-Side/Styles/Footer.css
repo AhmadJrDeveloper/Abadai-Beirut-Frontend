@@ -1,0 +1,35 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border: solid black 2px;
+    background-image: url('../Assets/headerimage1.jpg');
+    background-size: 100% 400px;
+    background-position: center top;
+    justify-content: space-around;
+}
+
+.footerlogo {
+    height: fit-content;
+}
+
+.ulfooter {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 35px;
+}
+
+.ulfooter1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.iglogo {
+    height: 30px;
+    width: 30px;
+}
+.contactinfo {
+    margin-bottom: 95px;
+}

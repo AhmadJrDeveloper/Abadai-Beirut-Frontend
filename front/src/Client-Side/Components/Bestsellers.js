@@ -5,7 +5,7 @@ const Recommended = ()=>{
 
     return(
         <div className="Home-recommended">
-            <p className="Home-Cart-Title">Our BestSellers</p>
+            <p className="Home-Cart-Title">Our artachsellers</p>
             <div className="Home-All-Carts">
                 <Cart/>
                 <Cart/>

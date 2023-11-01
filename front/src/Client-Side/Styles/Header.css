@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 133px;
+    background-image: url('../Assets/headerimage1.jpg');
+    background-size: 100% 5500px;
+    justify-content: space-between;
+    background-position: center top;
+   }
+   
+   
+ 
+.phonelogo {
+    height: 30px;
+    width: 30px;
+    }
+
+.phonenumber {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 200px;
+}
+.headerlogo {
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.ulheader {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
