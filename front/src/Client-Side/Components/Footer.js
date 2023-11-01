@@ -6,7 +6,7 @@ import iglogo from '../Assets/iglogo.png'
 const Footer =() => {
     return (
         <div className='Footer'>
-          <img className='footerlogo' src={Logo}/> 
+          <img className='footerlogo' alt='alt: LOGO' src={Logo}/> 
             <div className='moretoexplore'>
                 <h4>More To Explore</h4>
                 <ul className='ulfooter'>
@@ -19,11 +19,11 @@ const Footer =() => {
             <div className='contactinfo'>
                 <h4>Contact Info</h4>
                 <div className='ulfooter1'>
-                    <img className='phonelogo' src={phonelogo}/>
+                    <img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/>
                     <p>+961 71248327</p>
                 </div>
                 <div className='ulfooter1'>
-                    <img className='iglogo' src={iglogo}/>
+                    <img className='iglogo' alt='alt: INSTAGRAM LOGO' src={iglogo}/>
                     <p>abadaibeirut</p>
                 </div>
             </div>

@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     height: 300px;
-    border: solid black 2px;
     background-image: url('../Assets/headerimage1.jpg');
     background-size: 100% 400px;
     background-position: center top;
