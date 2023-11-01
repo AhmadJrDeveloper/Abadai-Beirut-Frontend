@@ -15,8 +15,9 @@ body{
    
  
 .phonelogo {
-    height: 30px;
-    width: 30px;
+    filter: brightness(20%);
+    height: 40px;
+    width: 40px;
     }
 
 .phonenumber {

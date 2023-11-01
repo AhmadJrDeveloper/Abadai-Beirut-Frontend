@@ -1,7 +1,6 @@
 import '../Styles/Header.css'
 import Logo from '../Assets/LOGO.png'
 import phonelogo from '../Assets/phonelogo.png'
-// import header from '../Assets/headerimage1.jpg'
 
 
 const Header = () => {
@@ -9,16 +8,16 @@ const Header = () => {
         <div className="header">
          
             <ul className='ulheader'>
-                <li className='home-button-header'><a href="#home.js">Home</a></li>
-                <li className='Menu-button-header'><a href="Menu.js">Menu</a></li>
-                <li className='About-button-header'><a href="About.js">About us</a></li>
-                <li className='contact-button-header'><a href="Contact.js">Contact us</a></li>
+                <li className='home-button-header'><a href="#Home">Home</a></li>
+                <li className='Menu-button-header'><a href="Menu">Menu</a></li>
+                <li className='About-button-header'><a href="About">About us</a></li>
+                <li className='contact-button-header'><a href="Contact">Contact us</a></li>
             </ul>
 
-            <img className='headerlogo' alt='alt: LOGO' src={Logo}/>
+            <a href="#Home"><img className='headerlogo' alt='alt: LOGO' src={Logo}/></a>
             <div className='phonenumber'>
-            <img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/>
-            <p>+961 71248327</p>
+            <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
+            <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr">+971 58 546 2004</a></p>
             </div>
         
             

@@ -10,21 +10,21 @@ const Footer =() => {
             <div className='moretoexplore'>
                 <h4>More To Explore</h4>
                 <ul className='ulfooter'>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Menu</li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="About">About Us</a></li>
+                    <li><a href="Contact">Contact Us</a></li>
+                    <li><a href="Menu">Menu</a></li>
                 </ul>
             </div>
             <div className='contactinfo'>
                 <h4>Contact Info</h4>
                 <div className='ulfooter1'>
-                    <img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/>
-                    <p>+961 71248327</p>
+                <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
+                <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><p>+961 71248327</p></a>
                 </div>
                 <div className='ulfooter1'>
-                    <img className='iglogo' alt='alt: INSTAGRAM LOGO' src={iglogo}/>
-                    <p>abadaibeirut</p>
+                    <a href="https://www.instagram.com/abadaibeirut/"><img className='iglogo' alt='alt: INSTAGRAM LOGO' src={iglogo}/></a>
+                    <a href="https://www.instagram.com/abadaibeirut/"><p>abadaibeirut</p></a>
                 </div>
             </div>
         </div>

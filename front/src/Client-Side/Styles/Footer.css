@@ -1,6 +1,6 @@
 .Footer {
     display: flex;
-    align-items: center;
+    align-items:center;
     height: 300px;
     background-image: url('../Assets/headerimage1.jpg');
     background-size: 100% 400px;
@@ -26,9 +26,13 @@
     gap: 30px;
 }
 .iglogo {
-    height: 30px;
-    width: 30px;
+    filter: brightness(20%);
+    height: 40px;
+    width: 40px;
 }
 .contactinfo {
-    margin-bottom: 95px;
+    /* margin-bottom: 95px; */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
