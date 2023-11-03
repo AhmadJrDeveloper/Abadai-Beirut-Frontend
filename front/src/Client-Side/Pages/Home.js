@@ -1,5 +1,7 @@
 
-import Recommended from "../Components/Bestsellers.js"
+
+import Carousell from "../Components/CardCarousel.js"
+import HomeHistory from "../Components/HomeHistory.js"
 // components
 
 
@@ -9,7 +11,8 @@ const Home = () => {
   
     return (
         <div className="home">
-           <Recommended/>
+            <HomeHistory/>
+             <Carousell/>
         </div>
     )
 }
