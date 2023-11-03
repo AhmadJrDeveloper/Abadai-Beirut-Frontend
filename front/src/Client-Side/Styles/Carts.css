@@ -1,0 +1,22 @@
+
+.Home-Product-Description{
+    margin: 40px;
+}
+.Home-Cart{
+    /* border: 1px solid red; */
+    display: flex;
+    margin:20px;
+    height: 450px;
+    width: 350px;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 7px 5px gray;
+    border-radius: 25px;
+}
+
+/* border radius is always 25px  */
+.Home-Cart img{
+    object-fit: cover;
+}
