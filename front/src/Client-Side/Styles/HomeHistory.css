@@ -1,0 +1,45 @@
+.Home-History{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#Home-History-Image{
+    width: 595px;
+    height: 530px;
+    margin-top: 50px;}
+
+span{
+    color: #C11708;
+}
+
+
+
+    .Info {
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+        width: 500px;
+        margin-left: 50px;
+
+}
+
+
+.Info .Home-History-Header{
+    font-size: 312%;
+
+}
+
+
+.Info .Home-History-SubHeader{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
+
+
+
