@@ -14,7 +14,8 @@ const Header = () => {
                 <li className='contact-button-header'><a href="Contact">Contact us</a></li>
             </ul>
 
-            <a href="#Home"><img className='headerlogo' alt='alt: LOGO' src={Logo}/></a>
+            <img className='headerlogo' alt='alt: LOGO' src={Logo}/>
+            
             <div className='phonenumber'>
             <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
             <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr">+971 58 546 2004</a></p>
