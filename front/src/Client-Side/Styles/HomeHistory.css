@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Lancelot-Regular;
+    src: url(../Assets/Lancelot-Regular.ttf);
+  }
+
+
+
+.Home-History{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: Lancelot-Regular;
+    width: 83%;
+    margin-bottom: 200px;
+}
+
+#Home-History-Image{
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;}
+
+span{
+    color: #C11708;
+}
+
+
+
+    .Info {
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+        width: 500px;
+        margin-left: 50px;
+        
+
+}
+
+
+.Info .Home-History-Header{
+    font-size: 60px;
+
+}
+
+
+.Info .Home-History-SubHeader{
+    text-align: justify;
+    font-size: 30px;
+}
+
+
+
+
+
+
