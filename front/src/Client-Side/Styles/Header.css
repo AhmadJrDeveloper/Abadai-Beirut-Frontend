@@ -1,17 +1,27 @@
 body{
     margin: auto;
     
+    
 }
-.header {
-    display: flex;
-    align-items: center;
-    height: 133px;
+header {
+    
+    font-size: 20px;
+    overflow: hidden;
     background-image: url('../Assets/headerimage1.jpg');
-    background-size: 100% 5500px;
-    justify-content: space-between;
-    background-position: center top;
+    background-size: 100% ;
+    
+
    }
-   
+
+.Home-container{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: inherit;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    
+}
    
  
 .phonelogo {
@@ -38,8 +48,52 @@ body{
     display: flex;
     flex-direction: row;
     gap: 70px;
+    align-items: center;
 }
 a {
     text-decoration: none;
     color: inherit;
   }
+
+
+
+
+  /* media query
+   */
+
+.header_nav_mobile{
+    height: 200px;
+}
+.header_nav_mobile{
+    background-image: url('../Assets/headerimage1.jpg');
+    border: solid rgb(254, 4, 4) 5px;
+
+}
+.header_nav_mobile ul{
+    border: blue 2px solid;
+    list-style: none;
+    
+    display: flex;
+    
+    flex-direction: column;
+  
+    gap: 20px;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 480px){
+    .Home-container{
+        display: none;
+
+    }
+  
+    .header_nav{
+        width: 90px;
+    }
+
+    .header_icon{
+        display: flex;
+        margin-top: 100px;
+    }
+}   
