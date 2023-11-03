@@ -1,0 +1,45 @@
+body{
+    margin: auto;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 133px;
+    background-image: url('../Assets/headerimage1.jpg');
+    background-size: 100% 5500px;
+    justify-content: space-between;
+    background-position: center top;
+   }
+   
+   
+ 
+.phonelogo {
+    filter: brightness(20%);
+    height: 40px;
+    width: 40px;
+    }
+
+.phonenumber {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 200px;
+}
+.headerlogo {
+    height: 150px;
+    width: 150px;
+    /* margin-right: 50px; */
+    height: fit-content;
+}
+
+.ulheader {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
