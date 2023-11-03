@@ -1,5 +1,5 @@
 import '../Styles/bestsellers.css'
-import Cart from './Carts'
+import Cart from './Cards'
 
 // imports for carousel
 import { useState } from 'react';
@@ -12,12 +12,14 @@ const Recommended = ()=>{
             <span className="Home-Cart-Title">Our <span className='Home-Special'> Bestsellers</span></span>
             <div className="Home-All-Carts">
          
+       
             <Cart/>
             <Cart/>
             <Cart/>
-
                 
             </div>
+
+            
            
 
         </div>
