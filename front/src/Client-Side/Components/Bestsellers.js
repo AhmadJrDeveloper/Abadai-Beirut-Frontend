@@ -1,26 +1,29 @@
 import '../Styles/bestsellers.css'
-import Button from './MainButton'
+import Cart from './Cards'
+
+// imports for carousel
+import { useState } from 'react';
 
 const Recommended = ()=>{
 
 
     return(
         <div className="Home-recommended">
-            <p className="Home-Cart-Title">Our BestSellers</p>
+            <span className="Home-Cart-Title">Our <span className='Home-Special'> Bestsellers</span></span>
             <div className="Home-All-Carts">
-            <div className="Home-Cart">
-                <img src="https://www.w3schools.com/html/img_chania.jpg"/>
-                <p className="Home-Product-Name">Shawarma</p>
-                <p className="Home-Product-Description">
-                    very delicious product
-                </p>
-                <Button/>
+         
+       
+            <Cart/>
+            <Cart/>
+            <Cart/>
+                
             </div>
-            </div>
+
+            
+           
 
         </div>
             
     )
 }
-
 export default Recommended
