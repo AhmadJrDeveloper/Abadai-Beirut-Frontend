@@ -1,8 +1,7 @@
-import Carousell from '../src/Client-Side/Components/CardCarousel';
-import LoginForm from './Admin-Side/Pages/login';
 
+import Message from '../src/Admin-Side/Components/Message'
 // pages
-import Home from './Client-Side/Pages/Home'
+import Inbox from '../src/Admin-Side/Pages/Inbox'
 
 
 
@@ -10,9 +9,7 @@ function App() {
   return (
     <div className="App">
 
-     
-      <LoginForm/>
-
+     <Inbox/>
 
 
     </div>
