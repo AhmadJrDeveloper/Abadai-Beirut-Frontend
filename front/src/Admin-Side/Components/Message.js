@@ -16,7 +16,9 @@ const Message = ()=>{
             <div className="text-container">
                 <p>Message From: <span>Ali Artach</span></p>
                 <p className="msg">Content: <span className="message-c">Hellodwfgr gvergwer vwergvtmwjfbwkvhnkwbwke kfhbwkeh ekwfjbweihfewkg kwghrghr ervgwergwrghwkj ekrgwejfb wekjrfbgw werk bwekfhwrn eljrhw kwrjbtkwchrlk wrhrdka</span></p>
-        </div></button>:
+        </div>
+        
+        </button>:
 
         <button className="Message unread-bg" onClick={readFeature}>
             
@@ -26,7 +28,10 @@ const Message = ()=>{
         </p>
         
         </div>
-        <div className="unread-dot">.</div>
+        <div className="Message-details">
+                <div className="unread-dot">.</div>
+                <div className="time">1 min ago</div>
+        </div>
         </button>}
         
         </>
