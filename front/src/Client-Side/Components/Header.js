@@ -17,8 +17,8 @@ const Header = () => {
             <img className='headerlogo' alt='alt: LOGO' src={Logo}/>
             
             <div className='phonenumber'>
-            <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
-            <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr">+971 58 546 2004</a></p>
+            <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target="_blank"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
+            <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target="_blank">+971 58 546 2004</a></p>
             </div>
         
             

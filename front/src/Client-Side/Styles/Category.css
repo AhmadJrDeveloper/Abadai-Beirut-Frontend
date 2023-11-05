@@ -1,0 +1,41 @@
+.flex-item {
+    width: 25.01%; /* Three columns in a row */
+    height: 50%; /* Two rows */
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+    
+  }
+  .categoryimage {
+    height: 170px;
+    width: 200px;
+  }
+  .flex-item p {
+    font-size: 20px;
+  }
+
+  @media (max-width:800px){
+    .flex-item{
+      width: 20%;
+      height: 35%;
+      margin-left: 70px;
+
+    }
+    
+    
+
+    .categoryimage {
+        height: 105px;
+        width: 150px;
+        margin: 0 -20px;
+      }
+      .flex-item p {
+        font-size: 20px;
+      }
+
+
+  }

@@ -38,6 +38,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 70px;
+    font-weight: bold;
 }
 a {
     text-decoration: none;

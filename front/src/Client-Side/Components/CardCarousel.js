@@ -2,7 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Card from './Cards.js';
 import '../Styles/carousel.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Carousell = () => {
   const listOfCards = [
