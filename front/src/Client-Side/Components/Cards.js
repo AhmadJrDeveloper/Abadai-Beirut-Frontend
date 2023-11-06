@@ -1,5 +1,5 @@
 
-
+// import dncwlkfvjwlk
 import '../Styles/Carts.css'
 import Button from './MainButton'
 
@@ -13,7 +13,8 @@ const Cart = ()=>{
             <p className="Home-Product-Description">
                 very delicious product
             </p>
-            <Button/>
+            <Button>read more</Button>
+
         </div>
             
     )

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import Zalame2 from '../Assets/Zalame2.jpg';
 import Location from '../Assets/Location.jpg';
+import BATATA from '../Assets/Zalame.jpg';
 import '../Styles/Contact.css'
 
 
