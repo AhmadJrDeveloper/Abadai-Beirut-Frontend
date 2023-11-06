@@ -8,7 +8,7 @@ export default function HomeHistory() {
         <img id = 'Home-History-Image' src={ZALAME} alt="Home_History" />
         <div className='Info'>
             
-            <p className="Home-History-Header"><span> The History</span> Of Our Restaurant</p>
+            <p className="Home-History-Header"><span className='Home-History-Span'> The History</span> Of Our Restaurant</p>
      
 
             <p className="Home-History-SubHeader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sint sed, debitis quod minus inventore optio! Assumenda quae architecto nam sunt, dicta, earum accusamus,

@@ -19,4 +19,6 @@
 /* border radius is always 25px  */
 .Home-Cart img{
     object-fit: cover;
+    width: 120px;
+    height: 120px;
 }

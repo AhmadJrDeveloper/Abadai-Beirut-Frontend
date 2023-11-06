@@ -4,7 +4,7 @@ function AddPro() {
   return (
     <>
            
-    <form>
+    <form className='add-cat-form'>
     {/* <div className='logo'><img src={Logo}/></div> */}
         <h3>Add a Product Here</h3>
 

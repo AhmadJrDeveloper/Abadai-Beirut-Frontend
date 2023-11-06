@@ -1,0 +1,212 @@
+
+
+@media screen and (min-width: 1600px){
+    
+
+
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location{
+    display: flex;
+}
+
+.location-info{
+        background-color: #808080;
+            border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 541px;
+    height: 549px;
+}
+
+.location-image{
+    width: 665px;
+    height: 550px;
+    border-radius: 15px;
+}
+
+.location-title{
+    font-size: 50px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.location-desc{
+    font-size: 35px;
+    padding-bottom: 200px;
+}
+
+.contact-us{
+    margin-top: 100px;
+    display: flex;
+}
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+border-radius: 15px;
+ width: 541px;
+height: 799px;
+}
+
+.contact-us input{
+    align-self: center;
+    margin-bottom: 70px;
+}
+
+.contact-us label{
+    padding-left: 70px;
+    padding-bottom: 5px;
+    color: #52525C;
+}
+.contact-us-title{
+    align-self: center;
+}
+
+.contact-us-image{
+    width: 665px;
+    height: 800px;
+    border-radius: 15px;
+}
+
+.contact-us-title{
+    font-size: 50px;
+}
+
+.contact-us-input{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+.contact-us-message{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    width: 400px;
+    height: 200px;
+    line-height: 150px; /* Set the line height equal to the textarea height */
+    padding-top: 0; /* Remove top padding to vertically center the text */
+    padding-bottom: 0;
+    border: none;
+    align-self: center;
+}
+
+}
+
+@media screen and (max-width: 1599px){
+    
+
+
+    .Main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .location{
+        display: flex;
+    }
+    
+    .location-info{
+            background-color: #808080;
+                border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .location-image{
+        width: 180px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .location-title{
+        font-size: 25px;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    
+    .location-desc{
+        font-size: 11px;
+        align-self: center;
+        padding-bottom: 100px;
+    }
+    
+    .contact-us{
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .contact-us-form{
+        display: flex;
+        flex-direction: column;
+        background-color: #808080;
+    border-radius: 15px;
+     width: 200px;
+    height: 300px;
+    }
+    
+    .contact-us input{
+        align-self: center;
+        margin-bottom: 5px;
+    }
+    
+    .contact-us label{
+        padding-left: 14px;
+        padding-bottom: 5px;
+        color: #52525C;
+    }
+    .contact-us-title{
+        align-self: center;
+    }
+    
+    .contact-us-image{
+        width: 180px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .contact-us-title{
+        font-size: 25px;
+    }
+    
+    .contact-us-input{
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        width: 165px;
+        height: 40px;
+        border: none;
+    }
+    .contact-us-message{
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        width: 165px;
+        height: 150px;
+        line-height: 60px; /* Set the line height equal to the textarea height */
+        padding-top: 0; /* Remove top padding to vertically center the text */
+        padding-bottom: 0;
+        border: none;
+        align-self: center;
+    }
+    
+    }
+
+
+
+
+
+
