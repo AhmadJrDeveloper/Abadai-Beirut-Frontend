@@ -1,29 +1,17 @@
-<<<<<<< HEAD
 import Home from '../src/Client-Side/Components/HomeHistory';
 import AboutUs from '../src/Client-Side/Components/AboutUs';
-=======
-
-import ContactUs from './Client-Side/Pages/Contact';
-// pages
->>>>>>> Malak
-
-
-import Home from '../src/Client-Side/Pages/Home.js'
+import Footer from './Client-Side/Components/Footer';
+import Header from './Client-Side/Components/Header';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
 
-     
+     <Header/>
       <AboutUs/>
+    <Footer/>
 
 
-
-=======
-     <Home/>
-      
->>>>>>> Malak
 
     </div>
   );
