@@ -1,10 +1,10 @@
 import React from 'react';
 import Zalame2 from '../Assets/Zalame2.jpg';
-import Location from '../Assets/Location.jpg';
+import Location from '../Assets/Location.png';
 import '../Styles/Contact.css'
 
 
-export default function AboutUs() {
+export default function ContactUs() {
   return (
     <>
       <div className="Main">

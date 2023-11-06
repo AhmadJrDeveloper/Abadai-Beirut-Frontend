@@ -55,10 +55,15 @@ img{
 @media (min-width:1024px){
     .div{
         display: flex;
-        border: red solid 10px;
+
         width: 80%;
         justify-content: center;
         margin-left: 300px;
        
     }
 }
+
+
+
+
+

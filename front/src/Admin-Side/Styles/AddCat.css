@@ -19,7 +19,7 @@
     border-radius: 50%;
 }
 
-form{
+.add-cat-form{
     height: 720px;
     width: 900px;
     background-color: rgba(255,255,255,0.13);
@@ -41,7 +41,7 @@ form{
   
 
 }
-form *{
+.add-cat-form *{
     font-family: 'Poppins',sans-serif;
     color: #000000;
     letter-spacing: 0.5px;
@@ -49,7 +49,7 @@ form *{
     border: none;
     align-items: center;
 }
-form h3{
+.add-cat-form h3{
     font-family:Lancelot-Regular;;
     font-size: 50px;
     font-weight: 500;

@@ -6,7 +6,7 @@ function AddCat(prop) {
   return (
     <>
            
-    <form>
+    <form className='add-cat-form'>
     {/* <div className='logo'><img src={Logo}/></div> */}
         <h3>Add a Category Here</h3>
 
