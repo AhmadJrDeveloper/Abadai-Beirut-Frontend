@@ -4,7 +4,7 @@ function EditCat() {
   return (
     <>
            
-    <form>
+    <form className='add-cat-form'>
     {/* <div className='logo'><img src={Logo}/></div> */}
         <h3>Edit Category Here</h3>
 
