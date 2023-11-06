@@ -12,7 +12,7 @@
     align-content: center;
     justify-content: center;
     font-family: Lancelot-Regular;
-    width: 83%;
+    width: 100%;
     margin-bottom: 200px;
 }
 
@@ -21,7 +21,7 @@
     height: 700px;
     margin-top: 50px;}
 
-span{
+.Home-History-Span{
     color: #C11708;
 }
 
@@ -31,8 +31,6 @@ span{
         display: flex;
         margin-top: 0;
         flex-direction: column;
-        width: 500px;
-        margin-left: 50px;
         
 
 }
@@ -49,6 +47,16 @@ span{
     font-size: 30px;
 }
 
+
+@media all and (max-width: 1210px){
+    
+
+    #Home-History-Image{
+        width: 370px;
+        height: 450px;
+        margin-top: 50px;}
+    
+}
 
 
 

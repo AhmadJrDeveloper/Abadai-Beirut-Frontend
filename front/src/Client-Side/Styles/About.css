@@ -1,0 +1,213 @@
+span{
+    color: #C11708;
+}
+
+.About-us-Below {
+    display: flex;
+    justify-content: center;
+  }
+
+.About-us-Below-img-First{
+    width: 333px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+ .About-us-Below-img-Second{
+    width: 666px;
+    height: 543px;
+    border-radius: 30px;
+    margin-left: 40px;
+ } 
+
+ .About-us-Below-SubHeader{
+    width: 409px;
+    height: 282px;
+    text-align: justify;
+ }
+
+@media all and (min-width: 1211px){
+
+.About-us-Header{
+    font-size: 312%;
+}
+
+.About-us-SubHeader{
+    text-align: justify;
+    font-size: 20px;
+    width: 80%;
+    
+}
+
+.About-us-SubHeader:nth-child(3){
+    padding-top: 50px;
+}
+
+.About-us-Above{
+    display: flex;
+    justify-content: center;
+}
+
+.About-us-Above-img{
+    width: 500px;
+    height: 800px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.About-us-Above-img img{
+    padding: 2px;
+}
+
+.About-us-Above-img-First-row{
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.About-us-Above-img img:first-child{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.About-us-Above-img .About-us-Above-img-First-row img:nth-child(2){
+    width: 170px;
+    height: 130px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.About-us-Above-img-Second-row{
+    border-radius: 30px;
+    margin-left: 250px;
+    width: 220px;
+    height: 160px;
+}
+
+.About-us-Above-Info{
+    padding-top: 50px;
+    width: 700px;
+}
+
+
+
+.About-us-Below {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.About-us-Below-img-First{
+    width: 333px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+ .About-us-Below-img-Second{
+    width: 666px;
+    height: 543px;
+    border-radius: 30px;
+    margin-left: 40px;
+ } 
+
+ .About-us-Below-SubHeader{
+    font-size: 20px;
+    width: 409px;
+    height: 282px;
+    text-align: justify;
+ }
+
+
+}
+
+@media all and (max-width: 1210px) {
+    .About-us {
+        width: 100%;
+    }
+
+    .About-us-Header{
+        font-size: 150%;
+    }
+    
+    .About-us-SubHeader{
+        text-align: justify;
+        font-size: 15px;
+        width: 70%;
+        
+    }
+    
+    .About-us-SubHeader:nth-child(3){
+        padding-top: 50px;
+    }
+    
+    .About-us-Above{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .About-us-Above-img{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .About-us-Above-img-First-row img{
+        width: 100px;
+        padding: 2px;
+        border-radius: 20px;
+
+    }
+
+    .About-us-Above-img-Second-row{
+        width: 100px;
+        border-radius: 20px;
+        padding-left: 5px;
+    }
+    
+    .About-us-Above-Info{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .About-us-Below-Info{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .About-us-Below-img-Second{
+        display: none;
+    }
+
+    .About-us-Below-SubHeader{
+        margin-top: 50px;
+        font-size: 15px;
+        text-align: justify;
+        width: 70%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
