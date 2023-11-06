@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
+import axios from 'axios';
 import Zalame2 from '../Assets/Zalame2.jpg';
 import Location from '../Assets/Location.jpg';
 import '../Styles/Contact.css'
 
 
 export default function ContactUs() {
+
+
+const [firstName, setFirstName] = useState('');
+
+
   return (
     <>
       <div className="Main">
@@ -31,7 +37,7 @@ export default function ContactUs() {
               <span>Contact </span>us
             </p>
 
-            <label className="contact-us-firstName" htmlFor="firstName">
+            <label className="contact-us-firstName" htmlFor="firstName" onChange = {(e) => {setFirstName(e.target.value)}}>
               First Name:
             </label>
             <input
