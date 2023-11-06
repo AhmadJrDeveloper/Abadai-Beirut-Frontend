@@ -1,0 +1,40 @@
+.Footer {
+    display: flex;
+    align-items:center;
+    height: 300px;
+    background-image: url('../Assets/headerimage1.jpg');
+    object-fit: cover;
+    background-position: center top;
+    justify-content: space-around;
+}
+
+.footerlogo {
+    height: 150px;
+    width: 150px;
+    height: fit-content;
+}
+
+.ulfooter {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 35px;
+}
+
+.ulfooter1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.iglogo {
+    filter: brightness(20%);
+    height: 40px;
+    width: 40px;
+}
+.contactinfo {
+    /* margin-bottom: 95px; */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}

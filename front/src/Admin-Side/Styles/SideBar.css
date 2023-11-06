@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: Lancelot-Regular;
+    src: url(../../Client-Side/Assets/Lancelot-Regular.ttf);
+  }
+
+
+body{
+    margin: auto;
+    
+
+}
+
+.SideBar{
+   
+        height: 2000px;
+        width: 200px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 40px;
+        background-image: url('../Assets/headerimage1.jpg');
+
+}
+
+.SideBar-logo{
+    width:175px;
+    height: 150px;
+}
+
+
+.SideBar-options{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    margin-top: 85px;
+    
+
+}
+
+button{
+    width: 200px;
+    height: 65px;
+    border: none;
+    color: white;
+    background-color: #333333;
+    font-size: 40px;
+    font-family: Lancelot-Regular;
+}
+
+
+.SideBar-logout{
+    margin-top: 105px;
+}
+

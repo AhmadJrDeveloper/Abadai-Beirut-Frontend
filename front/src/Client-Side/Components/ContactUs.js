@@ -1,6 +1,8 @@
 import React from 'react';
+
 import Zalame2 from '../Assets/Zalame2.jpg';
 import Location from '../Assets/Location.jpg';
+import BATATA from '../Assets/Zalame.jpg';
 import '../Styles/Contact.css'
 
 
