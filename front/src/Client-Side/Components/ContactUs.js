@@ -11,6 +11,21 @@ export default function ContactUs() {
 
 const [firstName, setFirstName] = useState('');
 
+submit = async (e)=>{
+  e.preventDefault()
+
+try{
+await axios.post("")
+
+}
+
+catch{
+
+
+}
+
+}
+
 
   return (
     <>
@@ -33,7 +48,7 @@ const [firstName, setFirstName] = useState('');
         <div className="contact-us">
           <img className="contact-us-image" src={Zalame2} alt="Contact Us" />
 
-          <form className="contact-us-form">
+          <form className="contact-us-form" action='POST'>
             <p className="contact-us-title">
               <span>Contact </span>us
             </p>
@@ -82,7 +97,7 @@ const [firstName, setFirstName] = useState('');
               required
             ></textarea>
 
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" onClick={submit} />
           </form>
         </div>
       </div>
