@@ -1,84 +1,33 @@
 import React from 'react';
+import BATATA from '../Assets/Zalame.jpg';
 import Zalame2 from '../Assets/Zalame2.jpg';
-import Location from '../Assets/Location.jpg';
-import '../Styles/Contact.css'
-
+import '../Styles/About.css';
 
 export default function AboutUs() {
   return (
-    <>
-      <div className="Main">
-        <div className="location">
-          <a href="https://www.google.com/maps/place/Abadai+Beirut+Resturant/@24.4925426,54.3777946,15z/data=!4m6!3m5!1s0x3e5e6701d56fd4b3:0x9dfa23e267d178e4!8m2!3d24.4925426!4d54.3777946!16s%2Fg%2F11jyz1b4ns?entry=ttu">
-            <img className="location-image" src= {Location} alt="location" />
-          </a>
-          <div className="location-info">
-            <p className="location-title">
-              Our <span>Location</span>
-            </p>
-            <p className="location-desc">
-              Al Mawkib St - Al Zahiyah - E16 -<br />
-              Abu Dhabi - United Arab Emirates
-            </p>
+    <div className="About-us">
+      <div className="About-us-Above">
+        <div className="About-us-Above-img">
+          <div className="About-us-Above-img-First-row">
+            <img src= {BATATA} alt="" />
+            <img src={BATATA} alt="" />
           </div>
+          <img className="About-us-Above-img-Second-row" src={BATATA} alt="" />
         </div>
-
-        <div className="contact-us">
-          <img className="contact-us-image" src={Zalame2} alt="Contact Us" />
-
-          <form className="contact-us-form">
-            <p className="contact-us-title">
-              <span>Contact </span>us
-            </p>
-
-            <label className="contact-us-firstName" htmlFor="firstName">
-              First Name:
-            </label>
-            <input
-              className="contact-us-input"
-              type="text"
-              name="firstName"
-              placeholder="First Name"
-              required
-            />
-
-            <label className="contact-us-secondName" htmlFor="secondName">
-              Last Name:
-            </label>
-            <input
-              className="contact-us-input"
-              type="text"
-              name="secondName"
-              placeholder="Last Name"
-              required
-            />
-
-            <label className="contact-us-email" htmlFor="email">
-              Email:
-            </label>
-            <input
-              className="contact-us-input"
-              type="email"
-              name="email"
-              placeholder="Enter E-mail"
-              required
-            />
-
-            <label className="contact-us-message-label" htmlFor="message">
-              Message:
-            </label>
-            <textarea
-              className="contact-us-message"
-              name="message"
-              rows="4"
-              placeholder="Enter a message"
-              required
-            ></textarea>
-
-            <input type="submit" value="Submit" />
-          </form>
+        <div className="About-us-Above-Info">
+          <p className="About-us-Header"><span>The History</span> Of Our Restaurant</p>
+          <p className="About-us-SubHeader">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error eaque alias harum eos eius mollitia. Quod voluptas, at sequi necessitatibus, qui tenetur officiis dolore, facere commodi ea fuga est debitis.</p>
+          <p className="About-us-SubHeader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus, fugiat cumque iusto eum nobis aut voluptatem, at culpa et in exercitationem accusantium libero facere ex voluptatum deleniti iure fuga.</p>
         </div>
       </div>
-    </>
+
+      <div className="About-us-Below">
+        <div className="About-us-Below-Info">
+          <img className="About-us-Below-img-First" src={Zalame2} alt="zzz" />
+          <p className="About-us-Below-SubHeader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum impedit delectus provident perferendis iusto ipsam, inventore repellat obcaecati fuga culpa, eligendi minima, consequuntur ex corrupti vel dignissimos quos nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nemo provident porro explicabo suscipit dolore quam id rem dignissimos magnam vero fugit facere incidunt, voluptates a eligendi cum repudiandae labore?</p>
+        </div>
+        <img className="About-us-Below-img-Second" src={Zalame2} alt="zzz" />
+      </div>
+    </div>
   );
 }

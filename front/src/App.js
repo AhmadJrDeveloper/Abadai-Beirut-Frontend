@@ -1,7 +1,5 @@
-import Carousell from '../src/Client-Side/Components/CardCarousel';
-
-// pages
-import Home from './Client-Side/Pages/Home'
+import Home from '../src/Client-Side/Components/HomeHistory';
+import AboutUs from '../src/Client-Side/Components/AboutUs';
 
 
 
@@ -10,7 +8,8 @@ function App() {
     <div className="App">
 
      
-      <Home/>
+      <AboutUs/>
+
 
 
 
