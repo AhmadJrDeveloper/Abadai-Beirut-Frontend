@@ -16,7 +16,6 @@ const Header = () => {
                     <li className='About-button-header'><a href="About">About us</a></li>
                     <li className='contact-button-header'><a href="Contact">Contact us</a></li>
                 </ul>
-                
                 <img className='headerlogo' alt='alt: LOGO' src={Logo}/>
             
 
