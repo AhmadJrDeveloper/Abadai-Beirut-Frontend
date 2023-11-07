@@ -1,15 +1,12 @@
-import Home from '../src/Client-Side/Components/HomeHistory';
-import AboutUs from '../src/Client-Side/Components/AboutUs';
-import Footer from './Client-Side/Components/Footer';
-import Header from './Client-Side/Components/Header';
+import Home from '../src/Client-Side/Pages/Home';
+
+
+import Contact from '../src/Client-Side/Pages/Contact';
 
 function App() {
   return (
     <div className="App">
-
-     <Header/>
-      <AboutUs/>
-    <Footer/>
+      <Contact/>
 
 
 
