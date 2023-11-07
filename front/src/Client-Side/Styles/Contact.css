@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: Lancelot-Regular;
+    src: url(../../Client-Side/Assets/Lancelot-Regular.ttf);
+  }
 
 @media screen and (min-width: 1600px){
     
@@ -9,84 +13,114 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Lancelot-Regular;
+    color: #333333;
 }
+
 
 .location{
     display: flex;
+    
+
 }
 
 .location-info{
-        background-color: #808080;
+        background-image: url('../../Client-Side/Assets/header.jpg');
             border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 541px;
-    height: 549px;
+    width: 841px;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-left: 100px;
 }
 
 .location-image{
-    width: 665px;
-    height: 550px;
+    width: 865px;
+    height: 600px;
+
     border-radius: 15px;
+    margin-right: 100px
 }
 
 .location-title{
-    font-size: 50px;
+    font-size: 70px;
     display: flex;
     padding-bottom: 100px;
+    color: #333333;
 }
 
 .location-desc{
-    font-size: 35px;
+    font-size: 39px;
     padding-bottom: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-us{
     margin-top: 100px;
     display: flex;
+
 }
 
 .contact-us-form{
     display: flex;
     flex-direction: column;
-    background-color: #808080;
+    background-image: url('../../Client-Side/Assets/header.jpg');
 border-radius: 15px;
- width: 541px;
-height: 799px;
-}
+ width: 841px;
+height: 900px;
 
+margin-left: 200px;
+/* box-shadow: 2px 1px 80px 0.5px rgba(8,7,16,0.6); */
+
+}
+.contact-us-firstName{
+    margin-top: 100px;
+}
 .contact-us input{
     align-self: center;
     margin-bottom: 70px;
+    
 }
 
 .contact-us label{
     padding-left: 70px;
     padding-bottom: 5px;
     color: #52525C;
+    font-size: 30px;
 }
 .contact-us-title{
-    align-self: center;
+    
 }
 
 .contact-us-image{
-    width: 665px;
-    height: 800px;
+    width: 865px;
+    height: 900px;
     border-radius: 15px;
 }
 
 .contact-us-title{
-    font-size: 50px;
+    font-size: 70px;
+    color: #333333;
 }
-
+.contact-us-span{
+    color: #C11708;
+    margin-left: 25px;
+}
 .contact-us-input{
     background-color: #F5F5F5;
     border-radius: 8px;
     width: 400px;
     height: 40px;
     border: none;
+    
 }
 .contact-us-message{
     background-color: #F5F5F5;
@@ -169,6 +203,7 @@ height: 799px;
         padding-left: 14px;
         padding-bottom: 5px;
         color: #52525C;
+        
     }
     .contact-us-title{
         align-self: center;

@@ -19,7 +19,7 @@
     border-radius: 50%;
 }
 
-.add-cat-form{
+.add-pro-form{
     height: 820px;
     width: 1200px;
     background-color: rgba(255,255,255,0.13);
@@ -42,7 +42,7 @@
   
 
 }
-.add-cat-form *{
+.add-pro-form *{
     font-family: 'Poppins',sans-serif;
     color: #000000;
     letter-spacing: 0.5px;
@@ -51,7 +51,7 @@
     align-items: center;
     
 }
-.add-cat-form h3{
+.add-pro-form h3{
     font-family:Lancelot-Regular;;
     font-size: 70px;
     font-weight: 500;
@@ -82,7 +82,7 @@ input{
     
 }
 
-#Category-name{
+#proegory-name{
     font-family: Lancelot-Regular;
     border-bottom: #000000 1px solid;
     width: 450px;
@@ -93,7 +93,7 @@ input{
 
 
 
-.add-cat-btn{
+.add-pro-btn{
  
 
         width: 150px;
@@ -110,7 +110,7 @@ input{
    
         
 }
-.add-input-form-container{
+.add-input-form-container-pro{
 
     display: flex;
     flex-direction: column;
