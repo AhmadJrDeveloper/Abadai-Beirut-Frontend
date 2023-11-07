@@ -23,8 +23,7 @@
     align-content: center;
     justify-content: center;
 
-    
-}
+    }
 img{
     width:150px;
     height:150px
@@ -50,6 +49,18 @@ img{
     color: #C11708;
     margin-left: 10px;
   
+}
+.carousel_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.react-multi-carousel-list{
+    width: 80%
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
 }
 
 @media (min-width:1024px){

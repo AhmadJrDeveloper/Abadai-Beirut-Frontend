@@ -15,7 +15,7 @@ export default function HomeHistory() {
              rem atque ea quam magnam ipsam?</p>
 
             <Button />  
-      </div>
+        </div>
     </div>
   )
 }
