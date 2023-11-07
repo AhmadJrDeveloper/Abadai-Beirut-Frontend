@@ -3,6 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import Card from './Cards'
 import React from 'react'
 import '../Styles/carousel.css';
+
 import Button from '../Components/MainButton'
 const CardCarousel = ()=> {
 
