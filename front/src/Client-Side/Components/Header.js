@@ -15,21 +15,19 @@ const Header = () => {
                     <li className='About-button-header'><a href="About">About us</a></li>
                     <li className='contact-button-header'><a href="Contact">Contact us</a></li>
                 </ul>
-                <img className='headerlogo' alt='alt: LOGO' src={Logo}/>
+                <div><img className='headerlogo' alt='alt: LOGO' src={Logo}/></div>
             
 
                 <div className='phonenumber'>
-                    <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
-                    <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr">+971 58 546 2004</a></p>
+                    <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr"><img className='phonelogoheader' alt='alt: PHONE LOGO' src={phonelogo}/></a>
+                    <p><a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target='_blank'>+971 58 546 2004</a></p>
                 </div>
 
             </nav>
+
+            
             <img className='headerlogo-mobile' alt='alt: LOGO' src={Logo}/>
-            <FontAwesomeIcon icon={collapse?faBars:faXmark} className='header_icon' onClick={()=>setCollapsed(!collapse)}/>
-            
-
-
-            
+                   
 
             <nav className='header_nav_mobile'>
            

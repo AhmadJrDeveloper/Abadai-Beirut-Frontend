@@ -28,30 +28,31 @@ const CardCarousel = ()=> {
 
   return (  
       
-        
-        <Carousel
-  
-          swipeable={false}
-          draggable={false}
-          showDots={true}
-          responsive={responsive}
-          
-        >
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/> 
-          
+        <div className="carousel_div">
+          <Carousel
+    
+            swipeable={false}
+            draggable={false}
+            showDots={true}
+            responsive={responsive}
+            
+          >
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/> 
+            
 
-        </Carousel>
+          </Carousel>
+        </div>
 
  
   )

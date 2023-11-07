@@ -12,14 +12,16 @@
     align-content: center;
     justify-content: center;
     font-family: Lancelot-Regular;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 200px;
 }
 
 #Home-History-Image{
     width: 700px;
     height: 700px;
-    margin-top: 50px;}
+    margin-top: 50px;
+    }
 
 .Home-History-Span{
     color: #C11708;
@@ -29,17 +31,17 @@
 
     .Info {
         display: flex;
-        margin-top: 0;
+        margin-left: 50px;
         flex-direction: column;
-        
-
-}
+        width: 40%;
+        /* justify-content: center; */
+        }
 
 
 .Info .Home-History-Header{
     font-size: 60px;
-
-}
+    
+    }
 
 
 .Info .Home-History-SubHeader{

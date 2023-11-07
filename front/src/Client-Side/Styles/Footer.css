@@ -39,6 +39,11 @@
     flex-direction: column;
     gap: 35px;
 }
+.phonelogo {
+    filter: brightness(20%);
+    height: 40px;
+    width: 40px;
+}
 
 
 
