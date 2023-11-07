@@ -1,15 +1,13 @@
 import Home from '../src/Client-Side/Pages/Home';
-
-
-import Contact from '../src/Client-Side/Pages/Contact';
-
+import AboutUs from '../src/Client-Side/Pages/About'
+import Header from './Client-Side/Components/Header';
+import Footer from './Client-Side/Components/Footer';
 function App() {
   return (
     <div className="App">
-      <Contact/>
-
-
-
+    <Header/>
+    <AboutUs/>
+    <Footer/> 
     </div>
   );
 }
