@@ -7,7 +7,7 @@ import Location from '../Assets/Pasted-image.png';
 import BATATA from '../Assets/Zalame.jpg';
 import Button from '../Components/MainButton';
 import '../Styles/Contact.css'
-import Button from '../Components/MainButton'
+
 
 export default function ContactUs() {
 
@@ -148,4 +148,4 @@ let addReview = async (e)=>{
       </div>
     </>
   );
-}
+}}

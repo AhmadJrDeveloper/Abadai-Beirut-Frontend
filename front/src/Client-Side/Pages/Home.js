@@ -14,11 +14,9 @@ const Home = () => {
     return (
         <div className="home">
 
-            <Header/>
             <HomeHistory/>
-
-           <Carousel/>
-             <Footer/>   
+            <Carousel/>
+      
 
         </div>
     )
