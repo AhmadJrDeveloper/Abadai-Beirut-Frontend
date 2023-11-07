@@ -15,11 +15,9 @@ const Home = () => {
     return (
         <div className="home">
 
-            <Header/>
-            {/* <HomeHistory/> */}
-
-           <Carousel/>
-             <Footer/>   
+            <HomeHistory/>
+            <Carousel/>
+      
 
         </div>
     )

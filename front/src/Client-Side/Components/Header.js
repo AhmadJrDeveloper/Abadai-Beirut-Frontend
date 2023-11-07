@@ -1,7 +1,8 @@
 import '../Styles/Header.css'
 import Logo from '../Assets/LOGO.png'
 import phonelogo from '../Assets/phonelogo.png'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 const Header = () => {
     const [collapse, setCollapsed] = useState(true)

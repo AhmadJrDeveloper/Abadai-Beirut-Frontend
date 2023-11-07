@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Lancelot-Regular;
+    src: url(../../Client-Side/Assets/Lancelot-Regular.ttf);
+  }
+
+.menu-separator-span h3{
+    background-image: url('../../Client-Side/Assets/header.jpg');
+
+    width: 900px;
+    border-radius: 35px;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family:Lancelot-Regular ;
+    color: #333333;
+    font-size: 40px;
+   
+    
+}
+
+
+.menu-middle-search-item{
+    display: flex;
+    
+  
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+}
+
+
+.menu-middle-separator-search-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.menu-middle-search-item input{
+    border-radius: 10px;
+   border: #33333361 1px solid;
+    margin-right: 5px;
+    height: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .menu-separator-span h3{
+        background-image: url('../../Client-Side/Assets/header.jpg');
+    
+        width: 300px;
+        border-radius: 35px;
+        text-align: center;
+        height: 50px;
+        font-size: 40px;
+       
+        
+    }
+
+    .menu-middle-search-item{
+   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-middle-search-item input{
+     
+        width: 50%;
+    }
+}
