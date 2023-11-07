@@ -24,8 +24,8 @@
 }
 
  .About-us-Below-img-Second{
-    width: 1066px;
-    height: 1043px;
+    width: 800px;
+    height: 800px;
     border-radius: 30px;
     margin-left: 40px;
  } 
@@ -45,7 +45,7 @@
 
 .About-us-SubHeader{
     text-align: justify;
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     
 }
@@ -58,15 +58,17 @@
     display: flex;
     justify-content: center;
     gap: 250px;
-    margin-bottom: 100px;
+   
 }
 
 .About-us-Above-img{
-    width: 500px;
-    height: 800px;
+    width: 250px;
+    height: 400px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
+
+     margin-right: 100px;
 }
 
 .About-us-Above-img img{
@@ -77,7 +79,7 @@
     flex-direction: row;
     padding-top: 100px;
     width: 1000px;
-    margin-left:-100px;
+    
 }
 
 .About-us-Above-img img:first-child{
@@ -86,36 +88,38 @@
     border-radius: 30px;
 }
 .About-us{
-    border: blue solid 5px;
+
     
     display: flex;
     flex-direction: column;
-    gap: 300px;
+    gap: 200px;
     font-family: Lancelot-Regular;
 }
 .About-us-Above-img .About-us-Above-img-First-row img:nth-child(2){
-    width: 340px;
-    height: 290px;
+    width: 170px;
+    height: 150px;
     margin-bottom: 60px;
     border-radius: 30px;
     margin-left: 30px;
+
 }
 
 .About-us-Above-img-Second-row{
     border-radius: 30px;
-    margin-left: 250px;
+    margin-left: 350px;
     margin-top: 60px;
-    width: 420px;
-    height: 360px;
+    width: 220px;
+    height: 180px;
 }
 
 
 .About-us-Above-Info{
     padding-top: 50px;
-    width:1000px;
-    padding-left:100px;
+    width:500px;
+    padding-left:500px;
     display: flex;
     flex-direction: column;
+  
 
 }
 
@@ -145,7 +149,7 @@
  } 
 
  .About-us-Below-SubHeader{
-    font-size: 40px;
+    font-size: 30px;
     width: 409px;
     height: 282px;
     text-align: left;
@@ -218,6 +222,7 @@
         padding-top: 50px;
         width: 100%;
         align-items: center;
+        font-size: 30px;
     }
 
     .About-us-Below-img-Second{
@@ -226,7 +231,7 @@
 
     .About-us-Below-SubHeader{
         margin-top: 50px;
-        font-size: 15px;
+        
         text-align: justify;
         width: 70%;
     }

@@ -11,8 +11,11 @@ const Home = () => {
   
     return (
         <div className="home">
-       <Carousel/>
-        
+            <Header/>
+            <HomeHistory/>
+
+           <Carousel/>
+             <Footer/>   
      
         </div>
     )
