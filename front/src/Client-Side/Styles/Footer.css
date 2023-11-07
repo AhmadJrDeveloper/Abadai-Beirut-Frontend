@@ -19,6 +19,7 @@
     flex-direction: column;
     list-style: none;
     gap: 35px;
+    font-weight: bold;
 }
 
 .ulfooter1 {
@@ -38,3 +39,28 @@
     flex-direction: column;
     gap: 35px;
 }
+
+
+
+@media (max-width: 1000px) {
+    .iglogo {
+        filter: brightness(20%);
+        height: 25px;
+        width: 25px;
+    }
+}
+@media (max-width: 800px) {
+    .iglogo {
+        filter: brightness(20%);
+        height: 20px;
+        width: 20px;
+        margin-right: -10px;
+    }
+    .phonelogo {
+        margin-right: -10px;
+    }
+    .ulfooter li {
+        margin-left: -30px;
+    }
+}
+

@@ -6,6 +6,7 @@ function EditCat() {
            
     <form className='add-cat-form'>
     {/* <div className='logo'><img src={Logo}/></div> */}
+    <div className='add-input-form-container'>
         <h3>Edit Category Here</h3>
 
         
@@ -17,7 +18,7 @@ function EditCat() {
         <input type="file" id="Category-image"/>
         <button className="add-cat-btn" type='submit'>Edit</button>
    
-       
+       </div>
     </form>
 </>
   )
