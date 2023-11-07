@@ -4,6 +4,11 @@
     src: url(../../Client-Side/Assets/Lancelot-Regular.ttf);
   }
 
+  .contact-us-form{
+
+    background-image: url('../../Client-Side/Assets/header.jpg');}
+  .location-info{
+    background-image: url('../../Client-Side/Assets/header.jpg');}
 @media screen and (min-width: 1600px){
     
 
