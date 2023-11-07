@@ -16,7 +16,7 @@ const Home = () => {
         <div className="home">
 
             <Header/>
-            <HomeHistory/>
+            {/* <HomeHistory/> */}
 
            <Carousel/>
              <Footer/>   

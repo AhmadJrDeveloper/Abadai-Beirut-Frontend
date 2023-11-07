@@ -6,9 +6,7 @@ import Footer from './Client-Side/Components/Footer';
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <AboutUs/>
-    <Footer/> 
+    <Home/>
 
     </div>
   );

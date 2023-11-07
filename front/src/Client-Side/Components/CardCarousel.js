@@ -28,7 +28,7 @@ const CardCarousel = ()=> {
 
   return (  
       
-        
+        <div className="carousel_div">
         <Carousel
   
           swipeable={false}
