@@ -14,10 +14,14 @@ const Home = () => {
     return (
         <div className="home">
 
+
          <Header/>
        
-        <Carousel/>
+    
         <Footer/>
+
+       <Carousel/>
+
         
 
         </div>
