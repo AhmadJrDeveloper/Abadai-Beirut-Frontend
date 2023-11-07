@@ -61,12 +61,12 @@
     .Home-History-SubHeader{
             display: flex;
             justify-content: center;
-            border: #C11708 4px solid;
+     
    
         }
 
         .Info{
-            border: #C11708 3px dotted;
+           
             width: fit-content;
             margin: 0;
         }
