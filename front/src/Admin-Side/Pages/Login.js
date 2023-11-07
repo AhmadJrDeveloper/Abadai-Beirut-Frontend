@@ -1,15 +1,16 @@
 import '../Styles/login.css'
 import Logo from '../Assets/LOGO.png'
+
 const LoginForm = ()=>{
 
 
     return(
        
-   <>
+   <body className='login-form-body'>
    
            
             <form>
-            <div><img src={Logo}/></div>
+ 
                 <h3>Login Here</h3>
 
                 
@@ -23,7 +24,7 @@ const LoginForm = ()=>{
                 <button>Log In</button>
                
             </form>
-    </>
+    </body>
         
     )
 }

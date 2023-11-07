@@ -1,19 +1,14 @@
-// import Home from '../src/Client-Side/Components/Home';
-import AboutUs from '../src/Client-Side/Components/AboutUs';
+import Home from '../src/Client-Side/Pages/Home';
+
+import AboutUs from '../src/Client-Side/Pages/About'
+import Header from './Client-Side/Components/Header';
 import Footer from './Client-Side/Components/Footer';
-import Home from './Client-Side/Pages/Home';
-
-// import Banner from '../Components/Banner.js'
-
 function App() {
   return (
     <div className="App">
-
-    <Home/>
-     {/* <Header/> */}
-      {/* <AboutUs/> */}
-    {/* <Footer/> */}
-    
+    <Header/>
+    <AboutUs/>
+    <Footer/> 
 
     </div>
   );

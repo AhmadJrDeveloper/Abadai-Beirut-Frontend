@@ -15,13 +15,11 @@ const Home = () => {
     return (
         <div className="home">
 
-        <Header/>
-        <Banner/>
-        <HomeHistory/>
-        <Categories/>
-        <Carousel/>
-        <Footer/>
-        
+            <Header/>
+            <HomeHistory/>
+
+           <Carousel/>
+             <Footer/>   
 
         </div>
     )
