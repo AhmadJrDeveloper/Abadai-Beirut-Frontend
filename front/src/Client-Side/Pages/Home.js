@@ -1,5 +1,5 @@
-
-
+// Styles
+import '../Styles/Home.css';
 // components
 
 import Header from "../Components/Header.js"
@@ -16,6 +16,10 @@ const Home = () => {
         <div className="home">
 
             <HomeHistory/>
+            <div className='Home-Carousel-Header-Container'>
+            <p className="Home-Carousel-Header"><span className='Home-Carousel-Span'> Our</span> Bestsellers</p>
+            </div>
+
             <Carousel/>
       
 

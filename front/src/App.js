@@ -1,46 +1,43 @@
-// import Home from '../src/Client-Side/Pages/Home';
-// import Menu from '../src/Client-Side/Pages/Menu';
-// import AboutUs from '../src/Client-Side/Pages/About'
+import Home from '../src/Client-Side/Pages/Home';
+import Menu from '../src/Client-Side/Pages/Menu';
+import AboutUs from '../src/Client-Side/Pages/About'
 import Header from './Client-Side/Components/Header';
-// import Footer from './Client-Side/Components/Footer';
+import Footer from './Client-Side/Components/Footer';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Contact from './Client-Side/Pages/Contact';
+import Contact from './Client-Side/Pages/Contact';
 
 function App() {
   return (
-    <div className='App'>
-      <Header/>
-    </div>
+   
     
-    
-    // <BrowserRouter>
-    // <Header/>
-    // <div className='pages'>
-    //   <Routes>
-    //     <Route
-    //     path="/"
-    //     element={<Home />}
-    //     />
+    <BrowserRouter>
+    <Header/>
+    <div className='pages'>
+      <Routes>
+        <Route
+        path="/"
+        element={<Home />}
+        />
 
-    //   {/* <Route
-    //     path="/Menu"
-    //     element={<Menu />}
-    //     />
+       <Route
+        path="/Menu"
+        element={<Menu />}
+        />
 
-    //   <Route
-    //     path="/About"
-    //     element={<AboutUs />}
-    //     /> */}
+      <Route
+        path="/About"
+        element={<AboutUs />}
+        />
 
-    //   <Route
-    //     path="/Contact"
-    //     element={<Contact />}
-    //     />
-    //   </Routes>
+      <Route
+        path="/Contact"
+        element={<Contact />}
+        />
+      </Routes>
         
-    // </div>
-    
-    // </BrowserRouter>
+    </div>
+    <Footer/>
+    </BrowserRouter>
 
   );
 }
