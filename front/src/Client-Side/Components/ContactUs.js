@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import Zalame2 from '../Assets/Zalame2.jpg';
-import Location from '../Assets/Location.jpg';
+import Location from '../Assets/Location.png';
 import BATATA from '../Assets/Zalame.jpg';
+import Button from '../Components/MainButton';
 import '../Styles/Contact.css'
 
 
@@ -10,21 +11,47 @@ export default function ContactUs() {
 
 
 const [firstName, setFirstName] = useState('');
+const [lastName, setLastName] = useState('');
+const [email, setEmail] = useState('');
+const [message, setMessage] = useState('');
 
-submit = async (e)=>{
+
+// function validateEmail(email) {
+//   const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/;
+//   return emailPattern.test(email);
+// }
+
+
+
+let addReview = async (e)=>{
   e.preventDefault()
 
-try{
-await axios.post("")
+  try{
+    
+      await axios.post("http://localhost:4000/api/inbox/",{
+        firstName,
+        lastName,
+        email,
+        message
+      })
+      setFirstName('');
+      setLastName('');
+      setEmail('');
+      setMessage('');      
+      
+
+  }
+
+      
+
+  catch(e){
+      console.log(e);
+
+  }
 
 }
 
-catch{
 
-
-}
-
-}
 
 
   return (
@@ -48,56 +75,64 @@ catch{
         <div className="contact-us">
           <img className="contact-us-image" src={Zalame2} alt="Contact Us" />
 
-          <form className="contact-us-form" action='POST'>
+          <form className="contact-us-form" action='POST' onSubmit={addReview}>
             <p className="contact-us-title">
               <span>Contact </span>us
             </p>
 
-            <label className="contact-us-firstName" htmlFor="firstName" onChange = {(e) => {setFirstName(e.target.value)}}>
+            <label className="contact-us-firstName" htmlFor="firstName" >
               First Name:
             </label>
             <input
+             value={firstName}
               className="contact-us-input"
               type="text"
               name="firstName"
               placeholder="First Name"
-              required
+              onChange = {(e) => {setFirstName(e.target.value)}}
+              
             />
 
             <label className="contact-us-secondName" htmlFor="secondName">
               Last Name:
             </label>
             <input
+            value={lastName}
               className="contact-us-input"
               type="text"
               name="secondName"
               placeholder="Last Name"
-              required
+              onChange = {(e) => {setLastName(e.target.value)}}
+              required 
             />
 
-            <label className="contact-us-email" htmlFor="email">
-              Email:
-            </label>
-            <input
-              className="contact-us-input"
-              type="email"
-              name="email"
-              placeholder="Enter E-mail"
-              required
-            />
+              <label className="contact-us-email" htmlFor="email">
+                Email:
+              </label>
+              <input
+              value={email}
+                className="contact-us-input"
+                type="email"
+                name="email"
+                placeholder="Enter E-mail"
+                onChange = {(e) => {setEmail(e.target.value)}}
+                required 
+              />
 
             <label className="contact-us-message-label" htmlFor="message">
               Message:
             </label>
             <textarea
+            value={message}
               className="contact-us-message"
               name="message"
               rows="4"
               placeholder="Enter a message"
+              onChange = {(e) => {setMessage(e.target.value)}}
               required
             ></textarea>
 
-            <input type="submit" value="Submit" onClick={submit} />
+            <Button>Submit</Button>
           </form>
         </div>
       </div>

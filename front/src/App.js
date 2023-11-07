@@ -1,29 +1,14 @@
-<<<<<<< HEAD
-import Home from '../src/Client-Side/Components/HomeHistory';
-import AboutUs from '../src/Client-Side/Components/AboutUs';
-=======
-
-import ContactUs from './Client-Side/Pages/Contact';
-// pages
->>>>>>> Malak
-
-
-import Home from '../src/Client-Side/Pages/Home.js'
+import ContactUs from "../src/Client-Side/Components/ContactUs";
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
 
      
-      <AboutUs/>
+      <ContactUs/>
 
 
 
-=======
-     <Home/>
-      
->>>>>>> Malak
 
     </div>
   );
