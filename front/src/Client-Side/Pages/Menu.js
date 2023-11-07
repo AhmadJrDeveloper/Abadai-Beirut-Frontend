@@ -1,11 +1,15 @@
+
 import Categories from "../Components/Categories";
 
-const Menu = () => {
-    return (
-        <div className="Menu">
-            <Categories/>
-        </div>
-    )
+import React from 'react'
+import ItemCarousel from '../Components/Products'
+function Menu() {
+  return (
+    <div>
+      <ItemCarousel/>
+    </div>
+  )
 }
 
-export default Menu;
+export default Menu
+

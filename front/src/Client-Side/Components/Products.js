@@ -3,9 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import Card from './Cards'
 import React from 'react'
 import '../Styles/carousel.css';
-
 import Button from '../Components/MainButton'
-const CardCarousel = ()=> {
+const ItemCarousel = ()=> {
 
   const responsive = {
     desktop: {
@@ -37,11 +36,10 @@ const CardCarousel = ()=> {
           responsive={responsive}
           
         >
-          <Card><Button>read more</Button></Card>
-          <Card><Button>read more</Button></Card>
-          <Card><Button>read more</Button></Card>
-          <Card><Button>read more</Button></Card>
-  
+          <Card><h3>25$</h3></Card>
+          <Card><h3>25$</h3></Card>
+          <Card><h3>25$</h3></Card>
+          <Card><h3>25$</h3></Card>
       
 
         </Carousel>
@@ -50,4 +48,4 @@ const CardCarousel = ()=> {
   )
 }
 
-export default CardCarousel
+export default ItemCarousel

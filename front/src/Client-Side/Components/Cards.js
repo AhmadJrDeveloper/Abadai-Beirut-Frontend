@@ -3,7 +3,7 @@
 import '../Styles/Carts.css'
 import Button from './MainButton'
 
-const Cart = ()=>{
+const Cart = ({ children })=>{
 
 
     return(
@@ -13,7 +13,7 @@ const Cart = ()=>{
             <p className="Home-Product-Description">
                 very delicious product
             </p>
-            <Button>read more</Button>
+            <span>{children}</span>
 
         </div>
             
