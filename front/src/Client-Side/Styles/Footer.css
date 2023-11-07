@@ -6,6 +6,7 @@
     object-fit: cover;
     background-position: center top;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .footerlogo {
