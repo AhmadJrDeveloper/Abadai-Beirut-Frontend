@@ -1,3 +1,6 @@
+
+import Categories from "../Components/Categories";
+
 import React from 'react'
 import ItemCarousel from '../Components/Products'
 function Menu() {
@@ -9,3 +12,4 @@ function Menu() {
 }
 
 export default Menu
+
