@@ -13,6 +13,7 @@ header {
     overflow: hidden;
     background-image: url('../Assets/headerimage1.jpg');
     background-size: 100% ;
+    
 
     height: 100px;
 
@@ -136,12 +137,13 @@ a:hover{
         margin-right: -10px;   
     }}
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 880px){
     header{
         display: flex;
-        justify-content: center;
+     
         padding-top: 10px;
         padding-right: 10px;
+   
         
     }
     .Home-container{
@@ -149,7 +151,7 @@ a:hover{
     }
     .header_nav_mobile{
         display: block;
-
+        
     }
     
     .ulheader li {
@@ -178,6 +180,11 @@ a:hover{
     }
     .headerlogo-mobile{
         display: flex;
+        justify-content: flex-start;
+        align-items: start;
+
+        width: 100px;
+        height: 100px;
     }
 
 }   
