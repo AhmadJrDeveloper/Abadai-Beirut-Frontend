@@ -4,6 +4,8 @@ import { faPen } from '@fortawesome/free-solid-svg-icons';
 import { MdDelete } from "react-icons/md";
 import '../Styles/SingleCat.css';
 import axios from 'axios';
+import { Link } from "react-router-dom";
+
 
 const Category = (props) => {
   const [confirmDelete, setConfirmDelete] = useState(false);
@@ -38,7 +40,9 @@ const Category = (props) => {
   return (
     <div className='admin-category-component-with-icons'>
       <div className='admin-icon-for-category'>
+        <Link to = "/edit-category">
         <FontAwesomeIcon icon={faPen} className='categories-icon-edit-admin' />
+        </Link>
         <MdDelete
           className='categories-icon-delete-admin'
           onClick={handleDeleteClick}

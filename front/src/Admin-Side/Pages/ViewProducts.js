@@ -46,7 +46,7 @@ function ViewProducts() {
                 console.log(product.image),
                 console.log(product.name),
                 <Card name={product.name} description = {product.description} price = {product.price}
-                image={`http://localhost:4000/${product.image.split("public")[1]}`} productId={product._id}      />        ))}
+                image={`http://localhost:4000/${product.image.split("public")[1]}`} productId={product._id} />        ))}
       
       </div>
     </div>
