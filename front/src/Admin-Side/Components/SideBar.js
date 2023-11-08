@@ -14,15 +14,15 @@ const SideBar = () =>{
        {/* check if clicked */}
       
        <div className='SideBar-options'>
-        <a href="#"><button className='SideBar-menu-item'>
+        <a href="/admin/home"><button className='SideBar-menu-item'>
                 Categories
         </button></a>
 
-        <a href="#"><button className='SideBar-menu-item'>
+        <a href="/admin/products"><button className='SideBar-menu-item'>
                 Products
         </button></a>
 
-        <a href="#"><button className='SideBar-menu-item'>
+        <a href="/admin/inbox"><button className='SideBar-menu-item'>
                 Inbox
         </button></a>
         </div>

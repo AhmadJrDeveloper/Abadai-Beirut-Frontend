@@ -6,7 +6,8 @@ function Category(prop) {
   
     <div class="flex-item">
         <img className='categoryimage' alt='alt: appetizers image' src={appetizers}/>
-        <p>{prop.name}</p></div>
+        <p>{prop.name}</p>
+    </div>
   )
 }
 

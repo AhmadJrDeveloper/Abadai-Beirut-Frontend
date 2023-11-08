@@ -20,7 +20,7 @@ const Footer =() => {
                 <h4>Contact Info</h4>
                 <div className='ulfooter1'>
                 <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target="_blank"><img className='phonelogo' alt='alt: PHONE LOGO' src={phonelogo}/></a>
-                <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target="_blank"><p>+961 71248327</p></a>
+                <a href="https://wa.me/message/6OCI2AOKZB47D1?src=qr" target="_blank"><p>+971 58 546 2004</p></a>
                 </div>
                 <div className='ulfooter1'>
                     <a href="https://www.instagram.com/abadaibeirut/" target="_blank"><img className='iglogo' alt='alt: INSTAGRAM LOGO' src={iglogo}/></a>

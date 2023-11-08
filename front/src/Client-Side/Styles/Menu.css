@@ -20,7 +20,11 @@
     
 }
 
-
+.Menu-item-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .menu-middle-search-item{
     display: flex;
     
@@ -46,7 +50,7 @@
     border-radius: 10px;
    border: #33333361 1px solid;
     margin-right: 5px;
- 
+    height: 25px;
 }
 
 

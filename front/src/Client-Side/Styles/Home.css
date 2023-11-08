@@ -1,0 +1,14 @@
+.Home-Carousel-Span{
+    color:#C11708;
+}
+
+.Home-Carousel-Header-Container{
+    font-size: 60px;
+    font-family: Lancelot-Regular;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    color: #333333;
+}
