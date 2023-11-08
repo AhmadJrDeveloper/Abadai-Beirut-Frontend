@@ -1,7 +1,25 @@
 import Message from "../Components/Message";
 import '../Styles/Inbox.css'
 import HeaderAdmin from "../Components/HeaderAdmin";
+import { useState, useEffect } from "react";
+import axios from "axios";
 const Inbox = ()=>{
+
+//     const [data, setData] = useState([]);// initializing data state
+
+//     const fetchData = async()=>{
+//         var res = await axios.get('http://localhost/4000/api/inbox/');
+//         res.then((response)=>{
+//           setData(response.data)
+//           console.log(data)
+//       })
+
+
+//     }
+//  useEffect(() =>{
+//     fetchData(),[]
+//     });
+
     const messages = [
         {
           "id":123,
