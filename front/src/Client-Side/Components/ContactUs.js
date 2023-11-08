@@ -18,7 +18,6 @@ const [email, setEmail] = useState('');
 const [message, setMessage] = useState('');
 
 
-var submit = async (e)=>{
 
 
 let addReview = async (e)=>{
@@ -148,4 +147,4 @@ let addReview = async (e)=>{
       </div>
     </>
   );
-}}
+}

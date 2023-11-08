@@ -1,60 +1,43 @@
-import React from 'react'
-import Category from '../Components/Category'
-import Button from '../../Client-Side/Components/MainButton'
-import HeaderAdmin from '../Components/HeaderAdmin'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import Category from '../Components/Category';
+import Button from '../../Client-Side/Components/MainButton';
+import HeaderAdmin from '../Components/HeaderAdmin';
 import '../Styles/Categories.css';
-function CategoriesAdmin() {
-  const data = [
-    {
-      "id":123,
-      "name":"Mashawi",
-      "img":"mashawi.png"
-    },
-    {
-      "id":53,
-      "name":"Fararij",
-      "img":"mashawi.png"
-    },
-    {
-      "id":18653,
-      "name":"Salads",
-      "img":"mashawi.png"
-    },
-    {
-      "id":1463,
-      "name":"Mu3ajanat",
-      "img":"../Assets/mou3ajanat.png"
-    }
-    ,
-    {
-      "id":18653,
-      "name":"Salads",
-      "img":"mashawi.png"
-    },
-    {
-      "id":1463,
-      "name":"Mu3ajanat",
-      "img":"mashawi.png"
-    }
-    
-  ]
-  return (
-    <>
-   
-    <div className='admin-MOTHER'>
-    <HeaderAdmin>Categories</HeaderAdmin>
-      <Button>Add Category</Button>
-      <div className='categories-container-admin'>
-        
-      {data.map((category) => (
-                console.log(category.img),
-                <Category name={category.name} img={category.img}/>
-              ))}
-      
-    </div>
-    </div>
-    </>
-  )
+
+async function fetchCategories() {
+  try {
+    const response = await axios.get('http://localhost:4000/api/categories/');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching category data:', error);
+    return [];
+  }
 }
 
-export default CategoriesAdmin
+function CategoriesAdmin() {
+  const [existingCategoryData, setExistingCategoryData] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const categories = await fetchCategories();
+      setExistingCategoryData(categories);
+    }
+
+    fetchData();
+  }, [existingCategoryData]);
+
+  return (
+    <div className="admin-MOTHER">
+      <HeaderAdmin>Categories</HeaderAdmin>
+      <Button>Add Category</Button>
+      <div className="categories-container-admin">
+        {existingCategoryData.map((category) => (
+          <Category key={category._id} name={category.name} image={`http://localhost:4000/${category.image.split("public")[1]}`} categoryId={category._id} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default CategoriesAdmin;
