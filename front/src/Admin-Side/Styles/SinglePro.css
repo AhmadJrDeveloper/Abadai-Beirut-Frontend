@@ -1,0 +1,82 @@
+
+.Home-Product-Description{
+    margin: 40px;
+}
+.admin-product-Cart{
+    /* border: 1px solid red; */
+    display: flex;
+    margin:20px;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 7px 5px gray;
+    border-radius: 25px;
+}
+
+/* border radius is always 25px  */
+/* .Home-Cart img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+} */
+
+
+
+.admin-products-component-with-icons{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.admin-icon-for-products{
+    display: flex;
+    justify-content: flex-end important;
+    align-items: right;
+    margin-left: 60%;
+    
+
+    
+}
+
+/* Styling each icon */
+.admin-icon-for-products-all{
+    display: flex;
+
+    width: 80%;
+}
+.admin-icon-for-products-favorite{
+    
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: start;
+}
+
+
+.products-icon-edit-admin, .products-icon-delete-admin, .admin-icon-for-products-favorite-star{
+    display: flex;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+
+  
+    
+}
+
+.products-icon-edit-admin{
+    color: #FF7B01;
+}
+
+.products-icon-delete-admin{
+    color: #C11708;
+}
+.admin-icon-for-products-favorite-star{
+    color:#FFD700;
+}

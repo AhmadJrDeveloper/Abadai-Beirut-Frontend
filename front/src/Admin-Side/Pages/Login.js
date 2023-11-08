@@ -9,7 +9,7 @@ const LoginForm = ()=>{
    <body className='login-form-body'>
    
            
-            <form>
+            <form className='login-form'>
  
                 <h3>Login Here</h3>
 

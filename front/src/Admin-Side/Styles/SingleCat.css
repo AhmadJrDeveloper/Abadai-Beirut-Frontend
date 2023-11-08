@@ -1,0 +1,35 @@
+.admin-category-component-with-icons{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-icon-for-category{
+    display: flex;
+    justify-content: flex-end important;
+    align-items: right;
+    margin-left: 40%;
+
+    
+}
+
+/* Styling each icon */
+
+.categories-icon-edit-admin, .categories-icon-delete-admin{
+    display: flex;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.categories-icon-edit-admin{
+    color: #FF7B01;
+}
+
+.categories-icon-delete-admin{
+    color: #C11708;
+}
