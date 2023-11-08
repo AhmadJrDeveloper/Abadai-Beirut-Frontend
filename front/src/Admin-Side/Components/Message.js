@@ -1,10 +1,11 @@
 import { useState } from "react"
 import '../Styles/Message.css'
-const Message = ()=>{
+const Message = (prop)=>{
     const [message, SetMessage] = useState('')
-    const [read, SetRead] = useState(false)
+    const [read, SetRead] = useState(prop.status)
 
     const readFeature = ()=>{
+   
         SetRead(true);
     }
 
@@ -14,8 +15,10 @@ const Message = ()=>{
         <button className="Message" onClick={readFeature}>
             
             <div className="text-container">
-                <p>Message From: <span>Ali Artach</span></p>
-                <p className="msg">Content: <span className="message-c">Hellodwfgr gvergwer vwergvtmwjfbwkvhnkwbwke kfhbwkeh ekwfjbweihfewkg kwghrghr ervgwergwrghwkj ekrgwejfb wekjrfbgw werk bwekfhwrn eljrhw kwrjbtkwchrlk wrhrdka</span></p>
+                <p>Message From: <span>{prop.firstName}{prop.lastName}</span></p>
+                <p className="unread"> {prop.email}</p>
+                <p className="msg">Content: <span className="message-c">{prop.message}</span></p>
+             
         </div>
         
         </button>:
@@ -23,8 +26,9 @@ const Message = ()=>{
         <button className="Message unread-bg" onClick={readFeature}>
             
         <div className="text-container unread-bg">
-        <p className="unread">Message From: <span className="unread">Ali Artach</span></p>
-        <p className="msg unread">Content: <span className="message-c unread">Hellodwfgr gvergwer vwergvtmwjfbwkvhnkwbwke kfhbwkeh ekwfjbweihfewkg kwghrghr ervgwergwrghwkj ekrgwejfb wekjrfbgw werk bwekfhwrn eljrhw kwrjbtkwchrlk wrhrdka</span>
+        <p className="unread">Message From: {prop.firstName}{prop.lastName}</p>
+        <p className="unread"> {prop.email}</p>
+        <p className="msg unread">Content: <span className="message-c unread">{prop.message}</span>
         </p>
         
         </div>

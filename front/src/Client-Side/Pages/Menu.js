@@ -18,8 +18,9 @@ function Menu() {
                 <Button>Search</Button>
             </form>
         </div>
-       
+       <div className="Menu-item-carousel">
       <ItemCarousel/>
+      </div>
     </div>
   )
 }

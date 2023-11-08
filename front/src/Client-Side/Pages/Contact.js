@@ -5,9 +5,9 @@ import ContactUs from '../Components/ContactUs.js'
 function Contact() {
   return (
     <div>
-      <Header/>
+ 
       <ContactUs/>
-      <Footer/>
+
 
     </div>
   )

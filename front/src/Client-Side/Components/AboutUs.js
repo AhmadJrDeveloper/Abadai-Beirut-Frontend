@@ -16,15 +16,15 @@ export default function AboutUs() {
         </div>
         <div className="About-us-Above-Info">
           <p className="About-us-Header"><span className='AboutUs-Title'>The History</span> Of Our Restaurant</p>
-          <p className="About-us-SubHeader">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error eaque alias harum eos eius mollitia. Quod voluptas, at sequi necessitatibus, qui tenetur officiis dolore, facere commodi ea fuga est debitis.</p>
-          <p className="About-us-SubHeader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus, fugiat cumque iusto eum nobis aut voluptatem, at culpa et in exercitationem accusantium libero facere ex voluptatum deleniti iure fuga.</p>
+          <p className="About-us-SubHeader">Our story begins with a passion for sharing the authentic tastes and traditions of Lebanon with the world. Established in 1969, our restaurant has been a labor of love, driven by a commitment to preserving the timeless recipes and cultural heritage of this remarkable Mediterranean country.</p>
+          <p className="About-us-SubHeader">  Over the years, we've strived to create an inviting and warm atmosphere that mirrors the genuine Lebanese dining experience. From traditional dishes like hummus, falafel, and shawarma, to our signature mezze platters and mouthwatering kebabs... </p>
         </div>
       </div>
 
       <div className="About-us-Below">
         <div className="About-us-Below-Info">
           <img className="About-us-Below-img-First" src={Zalame2} alt="zzz" />
-          <p className="About-us-Below-SubHeader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum impedit delectus provident perferendis iusto ipsam, inventore repellat obcaecati fuga culpa, eligendi minima, consequuntur ex corrupti vel dignissimos quos nobis? Lorem ipsum dolor sit am</p>
+          <p className="About-us-Below-SubHeader">Every bite at <b>Abadai Beirut</b> is a homage to the centuries-old culinary artistry of Lebanon. We invite you to join us on this culinary adventure, where every meal is a celebration of the flavors and traditions that make Lebanon's cuisine a global sensation.</p>
         </div>
         <img className="About-us-Below-img-Second" src={Zalame2} alt="zzz" />
       </div>

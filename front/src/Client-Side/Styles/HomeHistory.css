@@ -45,7 +45,7 @@
 
 
 .Info .Home-History-SubHeader{
-    text-align: justify;
+
     font-size: 30px;
 }
 
@@ -57,6 +57,19 @@
         width: 370px;
         height: 450px;
         margin-top: 50px;}
+
+    .Home-History-SubHeader{
+            display: flex;
+            justify-content: center;
+     
+   
+        }
+
+        .Info{
+           
+            width: fit-content;
+            margin: 0;
+        }
     
 }
 

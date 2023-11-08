@@ -12,14 +12,12 @@ body{
 }
 
 .SideBar{
-   
-        height: 2000px;
-        width: 200px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        padding-top: 40px;
-        background-image: url('../Assets/headerimage1.jpg');
+    min-height: 100vh;
+    height: auto;
+    width: 200px;
+    padding-top: 40px;
+    background-image: url('../Assets/headerimage1.jpg');
+     
 
 }
 

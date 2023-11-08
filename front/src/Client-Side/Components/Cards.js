@@ -3,7 +3,7 @@
 import '../Styles/Carts.css'
 import Button from './MainButton'
 
-const Cart = ({ children })=>{
+const Cart = ({ children }, prop)=>{
 
 
     return(

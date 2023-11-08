@@ -34,6 +34,7 @@
     width: 409px;
     height: 282px;
     text-align: justify;
+    
  }
 
  
@@ -108,8 +109,8 @@
     border-radius: 30px;
     margin-left: 350px;
     margin-top: 60px;
-    width: 220px;
-    height: 180px;
+    width: 320px;
+    height: 280px;
 }
 
 
@@ -130,6 +131,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 200px;
+    margin-bottom: auto;
     
   }
 
@@ -231,7 +233,8 @@
 
     .About-us-Below-SubHeader{
         margin-top: 50px;
-        
+        font-size: 15px;
+        line-height: 2;
         text-align: justify;
         width: 70%;
     }
