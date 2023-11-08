@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Components/Product'
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPen  } from '@fortawesome/free-solid-svg-icons'
 import { MdDelete } from "react-icons/md";
@@ -67,8 +68,10 @@ function ViewProducts() {
   return (
     <div className='admin-MOTHER-products'>
       <HeaderAdmin>Products</HeaderAdmin>
-              <Button className="add-product-button-admin">Add Product</Button>
-      <div className='products-container-admin'>
+      <Link to="/add-product">
+        <Button className="add-product-button-admin">Add Product</Button>
+      </Link>
+          <div className='products-container-admin'>
 
       {data.map((product) => (
                 console.log(product.image),

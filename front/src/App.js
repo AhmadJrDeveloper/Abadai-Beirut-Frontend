@@ -7,11 +7,11 @@ import Inbox from '../src/Admin-Side/Pages/Inbox';
 import Categoriesadmin from './Admin-Side/Pages/ViewCat';
 import Login from '../src/Admin-Side/Pages/Login';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import AddProduct from '../src/Admin-Side/Pages/AddPro';
 import Contact from './Client-Side/Pages/Contact';
 import SideBar from '../src/Admin-Side/Components/SideBar';
 import ViewProducts from './Admin-Side/Pages/ViewProducts';
-
+import AddProducts from '../src/Admin-Side/Pages/AddPro';
 import './index.css';
 
 function App() {
@@ -74,6 +74,11 @@ function App() {
           <Route
           path="/admin/inbox"
           element={<Inbox />}
+          />
+
+<Route
+          path="/add-product"
+          element={<AddProduct />}
           />
 
     </Routes>

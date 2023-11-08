@@ -1,13 +1,31 @@
-import React from 'react'
-import '../Styles/AddPro.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+  import '../Styles/AddPro.css'
 function AddPro() {
+
+  const [existingCategoryNames, setExistingCategoryNames] = useState([]);
+
+
+
+  useEffect(() => {
+    // Fetching the data
+    axios.get('http://localhost:4000/api/categories/')
+      .then((response) => {
+        const categoryNames = response.data.map((category) => category.name);
+        console.log('Fetched existing category names:', categoryNames);
+        setExistingCategoryNames(categoryNames);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
   return (
     <>
            
     <form className='add-pro-form'>
     {/* <div className='logo'><img src={Logo}/></div> */}
     <div className='add-input-form-container-pro'>
-        <h3>Add a Product Here</h3>
+        <h3 className='addProTitle'>Add a Product Here</h3>
 
         
 
@@ -16,7 +34,7 @@ function AddPro() {
 
 
         <label for="Product-description">Product Description</label>
-        <textarea id="Product-description"> </textarea> 
+        <textarea id="Product-description" placeholder="Hummus"> </textarea> 
 
         <label for="Product-price">Product Price</label>
         <input type='number' placeholder='2$' id='Product-price'/>
@@ -24,11 +42,14 @@ function AddPro() {
         <label for="Category-image">Category Image</label>
         <input type="file" id="Category-image"/>
 
-        <select id='Category'>
-          <option value="Batata">Batata</option>
-          <option value="Fararij">Fararij</option>
-          <option value="salata">Salata</option>
+        <select id='CategoryDropDown'>
+          {existingCategoryNames.map((category) => (
+            <option key={category._id} value={category.name}>
+              {category.name}
+            </option>
+          ))}
         </select>
+
         <button className="add-pro-btn" type='submit'>add</button>
    
        </div>

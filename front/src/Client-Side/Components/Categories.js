@@ -1,62 +1,35 @@
 import '../Styles/Categories.css'
-
-import salads from '../Assets/salads.png'
-import mashawi from '../Assets/mashawi.png'
-import mou3ajanat from '../Assets/mou3ajanat.png'
-import shawarma from '../Assets/shawarma.png'
-import maincourses from '../Assets/maincourses.png'
 import Category from '../Components/Category.js'
-import { useState } from 'react'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 const Categories = () => {
 
-  const data = [
-    {
-      "id":123,
-      "name":"Mashawi",
-      "img":"mashawi.png"
-    },
-    {
-      "id":53,
-      "name":"Fararij",
-      "img":"mashawi.png"
-    },
-    {
-      "id":18653,
-      "name":"Salads",
-      "img":"mashawi.png"
-    },
-    {
-      "id":1463,
-      "name":"Mu3ajanat",
-      "img":"../Assets/mou3ajanat.png"
-    }
-    ,
-    {
-      "id":18653,
-      "name":"Salads",
-      "img":"mashawi.png"
-    },
-    {
-      "id":1463,
-      "name":"Mu3ajanat",
-      "img":"mashawi.png"
-    }
-    
-  ]
-    return (
-        <div className='MOTHER'>
-          <h1 className='Categories-title'>Our <span>Categories</span></h1>
-           <div className="flex-container">
-           
-              {data.map((category) => (
-                console.log(category.img),
-                <Category name={category.name} img={category.img}/>
-              ))}
-              
-            </div>
-        </div>
-       
-    )
-}
+  const [existingCategoryData, setExistingCategoryData] = useState([]);
+
+  useEffect(() => {
+    axios.get('http://localhost:4000/api/categories/')
+      .then((response) => {
+        console.log('Fetched existing category data:', response.data);
+        setExistingCategoryData(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  
+
+
+  return (
+    <div className='MOTHER'>
+      <h1 className='Categories-title'>Our <span>Categories</span></h1>
+      <div className="flex-container">
+        {existingCategoryData.map((category) => (
+          <Category key={category._id} name={category.name} image = {`http://localhost:4000/${category.image.split("public")[1]}`} />
+        ))}
+      </div>
+    </div>
+  );
+  }
+            
 
 export default Categories;
