@@ -5,7 +5,7 @@ function Category(prop) {
   return (
   
     <div class="flex-item">
-        <img className='categoryimage' alt='alt: appetizers image' src={appetizers}/>
+        <img className='categoryimage' alt='alt: appetizers image' src={prop.image}/>
         <p>{prop.name}</p>
     </div>
   )
